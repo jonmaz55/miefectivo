@@ -1,0 +1,185 @@
+/*heade**************/
+.pie_pagina {
+  padding-bottom: 100px;
+  width: 100%;
+  overflow: hidden;
+  height: 500px;
+  position: relative;
+}
+.pie_pagina img {
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.centrado {
+  position: inherit;
+  margin-top: 16%;
+  padding-right: 15%;
+  padding-left: 15%;
+  text-align: center;
+}
+.centrado h1 {
+  font-size: 80px;
+  letter-spacing: 5px;
+  text-shadow: 3px 5px #000000;
+  color: #ffffff;
+}
+/*////////////////////////*/
+/**********menu*************/
+.fijo {
+  position: fixed;
+  left: 30px;
+  font-size: 1.5em;
+}
+.link {
+  display: flex;
+  flex-direction: column;
+}
+.link a {
+  padding: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  transition: transform 0.6s;
+}
+.link a:hover {
+  transform: scale(1);
+  text-decoration-line: underline;
+}
+/*//////////////////////////*/
+/*////////asaide**************/
+.sub-menu a:hover {
+  transform: scale(1);
+  text-decoration-line: underline;
+}
+.sub-menu {
+  background-color: #000000;
+  width: 100%;
+  height: 100px;
+  padding: 40px;
+  z-index: 1;
+}
+.sub-menu a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/*****************************/
+/**********main************/
+
+.context-1 {
+  width: 80%;
+  background-color: #ffffff;
+  padding: 100px;
+  overflow: hidden;
+  margin: 15px auto;
+  font-size: 1.5em;
+  margin-top: 20%;
+}
+.context-1 h2 {
+  text-shadow: 2px 2px #838383;
+}
+.context-2 {
+  width: 80%;
+  background-color: #ffffff;
+  padding: 100px;
+  overflow: hidden;
+  margin: 20px auto;
+  font-size: 1.5em;
+  margin-top: 20%;
+}
+/*/////desplegar texto//*/
+.button {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 5px;
+}
+#uno {
+  display: none;
+  overflow: scroll;
+  height: 150px;
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 5px;
+}
+#dos {
+  display: none;
+  overflow: scroll;
+  height: 150px;
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 5px;
+}
+/*//////////////////////*/
+.contenido-derecha-1 {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 60%;
+  margin: 20px auto;
+  /*background-color: rgba(80, 80, 80, 0.405);*/
+  color: aliceblue;
+  padding: 15px;
+  position: relative;
+  font-size: 1.5em;
+  overflow: hidden;
+  margin-top: 10%;
+}
+.contenido-derecha-1 img {
+  float: right;
+  margin-left: 15px;
+  width: 30%;
+  position: relative;
+  z-index: 1;
+  top: 15px;
+}
+.contenido-derecha-1 p {
+  margin-top: 40%;
+  text-transform: uppercase;
+  text-align: right;
+  position: relative;
+  z-index: 1;
+}
+.contenido-derecha-1 .img_clak-1 {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  background-size: cover;
+  box-shadow: 1px 1px 1em #000000;
+}
+.contenido-derecha-1:nth-of-type(1) .img_clak-1 {
+  background-color: #8a2be2b5;
+}
+
+/*///////////////////////////*/
+/*********footer*************/
+
+/*//////////////////////////*
+
+/********boton*********/
+.subir {
+  display: none;
+  padding: 6px;
+  background: #000000;
+  font-size: 10px;
+  color: #fff;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 5px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px #505050;
+}
+.subir svg {
+  margin-top: 2px;
+  border-radius: 50%;
+}
+/*********************/
+.fixed {
+  position: fixed;
+  top: 0;
+}

@@ -1,0 +1,45 @@
+@media only screen and (max-width: 550px) {
+    .container {
+      grid-template-columns: 1fr; /*da medida alo ancho*/
+      grid-template-rows: 0.4fr 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1fr; /*da medida alo alto*/
+      grid-template-areas:
+        "header"
+        "nav"
+        "main"
+        "footer";
+    }
+    header {
+      grid-area: header;
+      background-color: blue;
+    }
+    nav {
+      grid-area: nav;
+      background-color: blueviolet;
+    }
+    main {
+      grid-area: main;
+      background-color: darkgreen;
+    }
+    footer {
+      grid-area: footer;
+      background-color: brown;
+    }
+    /**********menu*************/
+    .link {
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      text-align: center;
+    }
+    .link h2{
+        text-align: center;
+    }
+    .link a {
+        position: relative;
+      padding: 22px;
+      text-decoration: none;
+      color: #000000;
+    }
+    /*//////////////////////////*/
+  }
+  
