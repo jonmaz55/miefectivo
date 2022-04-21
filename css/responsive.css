@@ -1,4 +1,4 @@
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 550px) {
   .container {
     grid-template-columns: 1fr; /*da medida alo ancho*/
     grid-template-rows: 0.4fr 0fr; /*da medida alo alto*/
@@ -41,30 +41,30 @@
   }
   /*//////////////////////////*/
 }
-
+/*
 @media only screen and (max-width: 1080px) {
   .container {
     grid-template-areas: "header nav";
   }
   /**********menu*************/
-  .link a {
+  /*.link a {
     width: 100%;
     margin-left: 0px;
-  }
-  /*//////////////////////////*/
+  }*/
+  /*//////////////////////////
 }
-@media only screen and (max-width: 1400px) {
+/*@media only screen and (max-width: 1400px) {
   .container {
     grid-template-areas: "header nav";
   }
 
   /**********menu*************/
-  .link {
+  /*.link {
     height: 128px;
   }
   .link a {
     width: 100%;
     margin-left: 0px;
   }
-  /*//////////////////////////*/
+
 }
