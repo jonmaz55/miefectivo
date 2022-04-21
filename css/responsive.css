@@ -1,44 +1,70 @@
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 480px) {
   .container {
     grid-template-columns: 1fr; /*da medida alo ancho*/
-    grid-template-rows: 0.4fr 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1fr; /*da medida alo alto*/
+    grid-template-rows: 0.4fr 0fr; /*da medida alo alto*/
+    grid-template-rows: 0.4fr 0fr; /*da medida alo alto*/
     grid-template-areas:
       "header"
-      "nav"
-      "main"
-      "footer";
+      "nav";
   }
-  header {
-    grid-area: header;
-    background-color: blue;
+  .header {
+    position: relative;
   }
-  nav {
-    grid-area: nav;
-    background-color: blueviolet;
-  }
-  main {
-    grid-area: main;
-    background-color: darkgreen;
-  }
-  footer {
-    grid-area: footer;
-    background-color: brown;
+
+  .nav {
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgb(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    position: absolute;
+    width: 100%;
+    margin-top: 50%;
+    margin-top: 80%;
+    height: 250px;
+    padding: 10px;
   }
   /**********menu*************/
+
   .link {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    text-align: center;
+    width: 80%;
+
+    height: 120px;
+    margin-left: 13%;
   }
-  .link h2{
-      text-align: center;
+  .button-1 {
+    margin: 15px 2px;
+  }
+  .link {
+    width: 80%;
+    margin-left: 12%;
+    height: 120px;
+  }
+  /*//////////////////////////*/
+}
+
+@media only screen and (max-width: 1080px) {
+  .container {
+    grid-template-areas: "header nav";
+  }
+  /**********menu*************/
+  .link a {
+    width: 100%;
+    margin-left: 0px;
+  }
+  /*//////////////////////////*/
+}
+@media only screen and (max-width: 1400px) {
+  .container {
+    grid-template-areas: "header nav";
+  }
+
+  /**********menu*************/
+  .link {
+    height: 128px;
   }
   .link a {
-      position: relative;
-    padding: 22px;
-    text-decoration: none;
-    color: #000000;
+    width: 100%;
+    margin-left: 0px;
   }
   /*//////////////////////////*/
 }

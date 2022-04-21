@@ -19,9 +19,10 @@ body {
 .header {
   grid-area: header;
   border: 1px solid #302f2f;
+  box-shadow: 5px 0px 20px #525252;
 }
 
 .nav {
   grid-area: nav;
-  border: 1px solid #302f2f;
+  /*border: 1px solid #302f2f;*/
 }

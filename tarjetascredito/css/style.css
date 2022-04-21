@@ -3,7 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+html{
+  scroll-behavior: smooth
+}
 body {
   background-color: rgb(126, 126, 126);
 }
@@ -29,6 +31,7 @@ nav {
   background-color: rgb(2, 2, 2);
   padding: 130px;
   color: rgb(255, 255, 255);
+  display: none;
 }
 aside {
   grid-area: aside;
@@ -64,7 +67,7 @@ footer {
 
 .grid-element {
   background-color: rgb(204, 204, 204);
-  padding: 20px;
+  padding: 10px;
   color: rgb(0, 0, 0);
   border: 2px solid #fff;
   font-size: 17px;
