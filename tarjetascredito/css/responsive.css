@@ -64,5 +64,9 @@
     text-align: justify;
     padding: 30px;
   }
+  footer{
+    gap: 6rem;
+    padding: 40px;
+  }
 
 }

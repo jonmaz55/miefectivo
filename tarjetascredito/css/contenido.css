@@ -68,13 +68,12 @@
 /**********main************/
 
 .context-1 {
-  width: 80%;
+  width: 100%;
   background-color: #ffffff;
   padding: 100px;
   overflow: hidden;
   margin: 15px auto;
   font-size: 1.5em;
-  margin-top: 20%;
 }
 .context-1 h2 {
   text-shadow: 2px 2px #838383;
@@ -157,7 +156,15 @@
 
 /*///////////////////////////*/
 /*********footer*************/
-
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 53rem;
+}
+footer a{
+  text-decoration: none;
+  color: #ffffff;
+}
 /*//////////////////////////*
 
 /********boton*********/
