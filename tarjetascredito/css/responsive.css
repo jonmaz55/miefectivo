@@ -43,8 +43,7 @@
     text-align: inherit;
   }
   .context-1 {
-    width: 100%;
-    padding: 50px;
+    padding: 0px;
   }
   .grid-element {
     font-size: 15px;
@@ -65,7 +64,7 @@
     padding: 30px;
   }
   footer{
-    gap: 6rem;
+    gap: 1rem;
     padding: 40px;
   }
 
