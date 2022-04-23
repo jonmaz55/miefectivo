@@ -82,6 +82,8 @@
   }
   /*ventana modal*/
   .modalDialog > div{
-    width: 78%;
+    width: 71%;
+    margin: 50px;
+    padding: 0px;
   }
 }
