@@ -124,7 +124,7 @@
   padding: 15px;
   position: relative;
   font-size: 1.5em;
-  overflow: hidden;
+ /* overflow: hidden;*/
   margin-top: 10%;
 }
 .contenido-derecha-1 img {

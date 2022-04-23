@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');/*nav*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');/*link*/
 * {
   padding: 0;
   margin: 0;
@@ -24,5 +26,7 @@ body {
 
 .nav {
   grid-area: nav;
-  /*border: 1px solid #302f2f;*/
+  font-family: 'Tapestry', cursive;/*fonts nav*/
+  word-spacing: 1px;
 }
+

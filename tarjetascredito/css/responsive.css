@@ -2,11 +2,11 @@
   .container {
     grid-template-columns: 1fr; /*da medida alo ancho*/
     grid-template-areas:
-    "header"
-    "nav"
-    "aside"
-    "main"
-    "footer";
+      "header"
+      "nav"
+      "aside"
+      "main"
+      "footer";
   }
   header {
     grid-area: header;
@@ -24,17 +24,43 @@
   footer {
     grid-area: footer;
   }
-  .fijo{
+  .fijo {
     position: relative;
   }
-  .context-1{
+  .context-1 {
     padding: 20px;
   }
-  .grid-element{
+  .grid-element {
     padding: 10px;
   }
-  .sub-menu{
+  .sub-menu {
     padding: 8px;
     text-align: justify;
+  }
+  .centrado h1 {
+    font-size: 30px;
+    margin-top: 80%;
+    text-align: inherit;
+  }
+  .context-1 {
+    width: 100%;
+  }
+  .grid-element {
+    font-size: 15px;
+    box-shadow: 0px 0px 10px rgb(3 3 3 / 76%);
+  }
+
+  .contenido-derecha-1 {
+    width: 100%;
+    font-size: 12px;
+  }
+  .contenido-derecha-1 p {
+    margin-top: 55%;
+  }
+  .context-2 {
+    width: 100%;
+    font-size: 12px;
+    text-align: justify;
+    padding: 30px;
   }
 }

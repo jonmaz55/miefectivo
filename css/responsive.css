@@ -1,14 +1,14 @@
 @media only screen and (max-width: 550px) {
   .container {
-    grid-template-columns: 1fr; /*da medida alo ancho*/
-    grid-template-rows: 0.4fr 0fr; /*da medida alo alto*/
-    grid-template-rows: 0.4fr 0fr; /*da medida alo alto*/
+    grid-template-columns: 1fr 0fr; /*da medida alo ancho*/
+    grid-template-rows: 0fr 0fr; /*da medida alo alto*/
     grid-template-areas:
       "header"
       "nav";
   }
   .header {
     position: relative;
+    height: 912px;
   }
 
   .nav {
@@ -18,8 +18,7 @@
     border: 1px solid rgba(255, 255, 255, 0.18);
     position: absolute;
     width: 100%;
-    margin-top: 50%;
-    margin-top: 80%;
+    margin-top: 70%;
     height: 250px;
     padding: 10px;
   }
@@ -27,8 +26,7 @@
 
   .link {
     width: 80%;
-
-    height: 120px;
+    height: 110px;
     margin-left: 13%;
   }
   .button-1 {
