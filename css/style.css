@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');/*nav*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');/*nav*/
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');/*link*/
 * {
   padding: 0;
@@ -27,7 +27,7 @@ body {
 
 .nav {
   grid-area: nav;
-  font-family: 'Tapestry', cursive;/*fonts nav*/
+  font-family: 'Merriweather Sans', sans-serif;/*fonts nav*/
   word-spacing: 1px;
 }
 

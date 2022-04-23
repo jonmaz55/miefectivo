@@ -276,6 +276,8 @@ padding: 20px;
   pointer-events: auto;
 }
 .modalDialog > div {
+  display: flex;
+  flex-wrap: wrap;
   width: 400px;
   position: relative;
   margin: 10% auto;
