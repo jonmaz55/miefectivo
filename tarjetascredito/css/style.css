@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -8,6 +9,7 @@ html{
 }
 body {
   background-color: rgb(126, 126, 126);
+  font-family: 'Karma', serif;
 }
 .container {
   display: grid;
@@ -70,7 +72,7 @@ footer {
   padding: 10px;
   color: rgb(0, 0, 0);
   border: 2px solid #fff;
-  font-size: 17px;
+  font-size: 15px;
   text-align: center;
   box-shadow: 10px 10px 5px rgba(3, 3, 3, 0.76);
   transition: transform 0.2s;

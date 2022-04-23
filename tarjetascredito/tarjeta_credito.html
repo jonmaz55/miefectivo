@@ -2089,7 +2089,36 @@
       </main>
       <footer>
         <p>&copy; 2022 Mi Efectivo</p>
-        <a href="#">Contacto</a>
+        <!--ventana modal-->
+        <a href="#openModal">Contacto</a>
+        <div id="openModal" class="modalDialog">
+          <div>
+            <a href="#close" title="Close" class="close">X</a>
+            <div class="formulario">
+              <div class="shell 0">
+                <h1>Formulario</h1>
+              </div>
+              <form action="https://formspree.io/f/mlezoeey" method="POST">
+                <div class="shell-1">
+                  <label for="email">Correo: </label>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="escribe tu correo...."
+                    required
+                  />
+                </div>
+                <div class="shell-3">
+                  <textarea name="message" cols="30" rows="10" placeholder="escribe tu mensaje...." required></textarea>
+                </div>
+                <div class="shell-4">
+                  <input type="submit" target="_blank" />
+                  <input type="reset" />
+                </div>
+              </form>
+            </div>
+           </div>
+        </div>
       </footer>
     </div>
     <script src="script.js"></script>

@@ -80,5 +80,8 @@
   .button-2 {
     position: sticky;
   }
-
+  /*ventana modal*/
+  .modalDialog > div{
+    width: 380px;
+  }
 }
