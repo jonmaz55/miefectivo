@@ -5,13 +5,14 @@
   overflow: hidden;
 }
 .header img{
-  width: 110%;
+  width: 100%;
   height: 100vh;
-  object-fit: cover;
-  animation: movimiento 12.5s infinite linear ;
+ /* object-fit: cover;*/
+  animation: zoomin 30s linear 1s forwards;
+  /*animation: movimiento 12.5s infinite linear ;*/
 }
-@keyframes movimiento{
-  0%{
+@keyframes zoomin{
+ /* 0%{
    transform: translateX(0);
   }
   50%{
@@ -19,7 +20,16 @@
   }
   100%{
     transform: translateX(0);
-  }
+  }*/
+ 0% {
+    -webkit-transform: scale(1);
+}
+50% {
+    -webkit-transform: scale(1.2);
+}
+100% {
+    -webkit-transform: scale(1.4);
+}
 }
 /*////////////////////////*/
 /**********menu*************/

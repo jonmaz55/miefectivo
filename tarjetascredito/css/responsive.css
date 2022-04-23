@@ -68,4 +68,16 @@
     padding: 40px;
   }
 
+  /*publicidad*/
+  .context-2-2 {
+    width: 100%;
+    font-size: 12px;
+    padding: 50px;
+  }
+
+  .button-2 {
+    
+    position: sticky;
+  }
+
 }
