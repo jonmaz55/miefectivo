@@ -52,7 +52,10 @@
 
   .contenido-derecha-1 {
     width: 100%;
-    font-size: 12px;
+    font-size: 10px;
+  }
+  .contenido-derecha-1 img{
+    width: 40%;
   }
   .contenido-derecha-1 p {
     margin-top: 55%;
@@ -76,7 +79,6 @@
   }
 
   .button-2 {
-    
     position: sticky;
   }
 
