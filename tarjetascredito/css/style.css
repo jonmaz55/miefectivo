@@ -57,7 +57,7 @@ footer {
 
 .grid-container--fill {
   /*espacio alos laterales*/
-  gap: 1rem;
+  gap: 2rem;
   /*///*/
   /*altura del cuadro*/
   grid-auto-rows: 26rem;

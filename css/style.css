@@ -11,7 +11,7 @@ body {
 }
 .container {
   display: grid;
-  height: 100vh;
+  min-height: 100vh;
   grid-template-columns: 1fr 0.8fr;
   grid-template-rows: 1fr;
   gap: 0px 0px;
