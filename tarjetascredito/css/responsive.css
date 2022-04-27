@@ -29,14 +29,18 @@
   }
   .context-1 {
     padding: 20px;
+    margin-top: 38px;
   }
   .grid-element {
     padding: 10px;
   }
+  /*//////asaide////*/
   .sub-menu {
     padding: 8px;
     text-align: justify;
   }
+ 
+  /*////////////////*/
   .centrado h1 {
     font-size: 30px;
     margin-top: 80%;
@@ -50,11 +54,21 @@
     box-shadow: 0px 0px 10px rgb(3 3 3 / 76%);
   }
 
+  .grid-element:hover {
+    transform: scale(1.0);
+    box-shadow: 0px 0px 0px rgba(3, 3, 3, 0.76);
+    border: 3px solid rgb(2, 2, 2);
+  }
+  .context-1 h2 {
+   text-align: center;
+  }
+
   .contenido-derecha-1 {
     width: 100%;
     font-size: 10px;
+    padding: 15px;
   }
-  .contenido-derecha-1 img{
+  .contenido-derecha-1 img {
     width: 40%;
   }
   .contenido-derecha-1 p {
@@ -66,7 +80,7 @@
     text-align: justify;
     padding: 30px;
   }
-  footer{
+  footer {
     padding: 40px;
   }
 
@@ -81,7 +95,7 @@
     position: sticky;
   }
   /*ventana modal*/
-  .modalDialog > div{
+  .modalDialog > div {
     width: 71%;
     margin: 50px;
     padding: 0px;

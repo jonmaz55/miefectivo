@@ -1,22 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Karma:wght@300&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-html{
-  scroll-behavior: smooth
+html {
+  scroll-behavior: smooth;
 }
 body {
   background-color: rgb(126, 126, 126);
-  font-family: 'Karma', serif;
+  font-family: "Karma", serif;
 }
 .container {
   display: grid;
   /*grid-template-columns: repeat(auto-fit,minmax(100px,1fr));*/
   min-height: 100vh;
   grid-template-rows: auto auto 1fr;
-  gap: 5px;
+  gap: 0px;
   grid-template-areas:
     "nav header header "
     "nav aside aside"
