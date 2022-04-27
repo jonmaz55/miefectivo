@@ -83,6 +83,9 @@
   footer {
     padding: 40px;
   }
+  .formulario{
+    padding: 1px;
+  }
 
   /*publicidad*/
   .context-2-2 {
@@ -96,7 +99,7 @@
   }
   /*ventana modal*/
   .modalDialog > div {
-    width: 71%;
+    width: 60%;
     margin: 50px;
     padding: 0px;
   }
