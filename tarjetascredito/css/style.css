@@ -72,10 +72,12 @@ footer {
   padding: 10px;
   color: rgb(0, 0, 0);
   border: 2px solid #fff;
-  font-size: 15px;
-  text-align: center;
+ /* font-size: 15px;
+  text-align: center;*/
   box-shadow: 10px 10px 5px rgba(3, 3, 3, 0.76);
   transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
 }
 
 .grid-element:hover {
