@@ -26,6 +26,8 @@
   text-shadow: 3px 5px #000000;
   color: #ffffff;
 }
+
+
 /*////////////////////////*/
 /**********menu*************/
 .fijo {
@@ -249,7 +251,7 @@
   top: 15px;
 }
 .contenido-derecha-1 p {
-  margin-top: 4%;
+  margin-top: 2%;
   text-transform: uppercase;
   text-align: right;
   position: relative;

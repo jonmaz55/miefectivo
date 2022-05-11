@@ -31,7 +31,7 @@ header {
 nav {
   grid-area: nav;
   background-color: rgb(2, 2, 2);
-  padding: 130px;
+ /* padding: 130px;*/
   color: rgb(255, 255, 255);
   display: none;
 }
