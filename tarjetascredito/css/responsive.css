@@ -10,6 +10,9 @@
   }
   header {
     grid-area: header;
+    font-size: 10px;
+    flex-direction: column;
+    text-align: center;
   }
   nav {
     grid-area: nav;
@@ -23,6 +26,9 @@
   }
   footer {
     grid-area: footer;
+  }
+  .nav-0{
+    margin-top: -600px;
   }
   .fijo {
     position: relative;

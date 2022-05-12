@@ -25,7 +25,7 @@ $(window).scroll(function() {
 });
 
 function posicionarMenu() {
-    var altura_del_header = $('.header').outerHeight(true);
+    var altura_del_header = $('header').outerHeight(true);
     var altura_del_menu = $('.sub-menu').outerHeight(true);
 
     if ($(window).scrollTop() >= altura_del_header){
@@ -37,3 +37,12 @@ function posicionarMenu() {
     }
 }
 ///////////////////////////////////////
+
+
+////////header/////////
+
+window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("abajo",window.scrollY>0);
+})
+//////////////////////

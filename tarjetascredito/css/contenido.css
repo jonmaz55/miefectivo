@@ -1,30 +1,72 @@
 /*heade**************/
-.pie_pagina {
-  padding-bottom: 100px;
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  overflow: hidden;
-  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  transition: 0.7s;
+  padding: 30px 20px;
+  z-index: 10;/*sobre poner contenido el numero varia dependiendo de los position*/
+}
+/*script*/
+header.abajo{
+  background-color: rgba(0, 0, 0, 0);
+  padding: 15px 20px;
+}
+header.abajo a{
+  color: rgba(0, 0, 0, 0);
+}
+/*cambiar color de la letra*/
+/*header.abajo .logo,
+header.abajo ul li a{
+  color: rgb(0, 0, 0);
+}*/
+/*/////////////*/
+header .logo{
   position: relative;
+  color: rgb(252, 252, 252);
+  text-decoration: none;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  transition: 1.5s;
 }
-.pie_pagina img {
-  position: absolute;
+
+.nav-0{
+  display: block ruby;
+ /*display: flex;*/
+ justify-content: center;
+ align-items: center; 
+}
+
+header ul{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li{
+  list-style: none;
+}
+header ul li a{
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;/*da espacio entre las letras*/
+  font-weight:600;/*da el color de la letra a niegrita el numero es intencidad*/
+  transition: 00.7s;
+}
+
+header{
+  position: relative;
   width: 100%;
-  max-width: 100%;
-  height: 500px;
-  object-fit: cover;
-}
-.centrado {
-  position: inherit;
-  margin-top: 16%;
-  padding-right: 15%;
-  padding-left: 15%;
-  text-align: center;
-}
-.centrado h1 {
-  font-size: 80px;
-  letter-spacing: 5px;
-  text-shadow: 3px 5px #000000;
-  color: #ffffff;
+  height: 100vh;
+  background-image: url(../img/tarjetas.jpg);
+  background-size: cover;/*no repetir imagen*/
+  background-position: center center; /*centar la imagen*/
 }
 
 
