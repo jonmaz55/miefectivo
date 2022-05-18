@@ -1,45 +1,96 @@
 @media only screen and (max-width: 550px) {
-    .container {
-      grid-template-columns: 1fr; /*da medida alo ancho*/
-      grid-template-rows: 0.4fr 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1fr; /*da medida alo alto*/
-      grid-template-areas:
-        "header"
-        "nav"
-        "main"
-        "footer";
-    }
-    header {
-      grid-area: header;
-      background-color: blue;
-    }
-    nav {
-      grid-area: nav;
-      background-color: blueviolet;
-    }
-    main {
-      grid-area: main;
-      background-color: darkgreen;
-    }
-    footer {
-      grid-area: footer;
-      background-color: brown;
-    }
-    /**********menu*************/
-    .link {
-      display: flex;
-      flex-direction: row;
-      position: absolute;
-      text-align: center;
-    }
-    .link h2{
-        text-align: center;
-    }
-    .link a {
-        position: relative;
-      padding: 22px;
-      text-decoration: none;
-      color: #000000;
-    }
-    /*//////////////////////////*/
+  .container {
+    grid-template-columns: 1fr; /*da medida alo ancho*/
+    grid-template-areas:
+      "header"
+      "nav"
+      "aside"
+      "main"
+      "footer";
   }
-  
+  header {
+    grid-area: header;
+    font-size: 10px;
+    flex-direction: column;
+    text-align: center;
+    height: 200px;
+  }
+  nav {
+    grid-area: nav;
+    display: none;
+  }
+  aside {
+    grid-area: aside;
+  }
+  main {
+    grid-area: main;
+  }
+  footer {
+    grid-area: footer;
+  }
+  .fijo {
+    position: relative;
+  }
+  .context-1 {
+    padding: 20px;
+    margin-top: 38px;
+  }
+  .grid-element {
+    padding: 10px;
+  }
+  /*//////asaide////*/
+  .sub-menu {
+    padding: 8px;
+    text-align: justify;
+  }
+ 
+  /*////////////////*/
+  .bbva{
+    flex-direction: column;
+  }
+  .table-2{
+    min-width: 100%;
+  }
+  .context-1 h2 {
+   text-align: center;
+  }
+
+  .contenido-derecha-1 {
+    width: 100%;
+    font-size: 8px;
+    padding: 15px;
+  }
+  .contenido-derecha-1 img {
+    width: 40%;
+  }
+
+  .context-2 {
+    width: 100%;
+    font-size: 12px;
+    text-align: justify;
+    padding: 30px;
+  }
+  footer {
+    padding: 40px;
+  }
+  .formulario{
+    padding: 1px;
+  }
+
+  /*publicidad*/
+  .context-2-2 {
+    width: 100%;
+    font-size: 12px;
+    padding: 50px;
+  }
+
+  .button-2 {
+    position: sticky;
+  }
+  /*ventana modal*/
+  .modalDialog > div {
+    width: 60%;
+    margin: 50px;
+    padding: 0px;
+  }
+}

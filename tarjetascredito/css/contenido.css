@@ -1,5 +1,5 @@
 /*heade**************/
-header{
+header {
   position: fixed;
   top: 0;
   left: 0;
@@ -8,14 +8,14 @@ header{
   justify-content: space-around;
   transition: 0.7s;
   padding: 30px 20px;
-  z-index: 10;/*sobre poner contenido el numero varia dependiendo de los position*/
+  z-index: 10; /*sobre poner contenido el numero varia dependiendo de los position*/
 }
 /*script*/
-header.abajo{
+header.abajo {
   background-color: rgba(0, 0, 0, 0);
   padding: 15px 20px;
 }
-header.abajo a{
+header.abajo a {
   color: rgba(0, 0, 0, 0);
 }
 /*cambiar color de la letra*/
@@ -24,51 +24,51 @@ header.abajo ul li a{
   color: rgb(0, 0, 0);
 }*/
 /*/////////////*/
-header .logo{
+header .logo {
   position: relative;
   color: rgb(252, 252, 252);
   text-decoration: none;
-  font-size: 2rem;
+  /*font-size: 2rem;*/
   letter-spacing: 2px;
   transition: 1.5s;
+  font-weight: 600;
 }
 
-.nav-0{
-  display: block ruby;
- /*display: flex;*/
- justify-content: center;
- align-items: center; 
+.nav-0 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
 }
 
-header ul{
+header ul {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-header ul li{
+header ul li {
   list-style: none;
 }
-header ul li a{
+header ul li a {
   position: relative;
   margin: 0 15px;
   text-decoration: none;
   color: rgb(255, 255, 255);
-  letter-spacing: 2px;/*da espacio entre las letras*/
-  font-weight:600;/*da el color de la letra a niegrita el numero es intencidad*/
+  letter-spacing: 2px; /*da espacio entre las letras*/
+  font-weight: 600; /*da el color de la letra a niegrita el numero es intencidad*/
   transition: 00.7s;
 }
 
-header{
+header {
   position: relative;
   width: 100%;
   height: 100vh;
   background-image: url(../img/tarjetas.jpg);
-  background-size: cover;/*no repetir imagen*/
+  background-size: cover; /*no repetir imagen*/
   background-position: center center; /*centar la imagen*/
 }
-
 
 /*////////////////////////*/
 /**********menu*************/
@@ -123,14 +123,14 @@ header{
   margin: 15px auto;
   font-size: 1.5em;
 }
-.grid-express{
+.grid-express {
   background-image: url(../img/amex-2.png);
   background-repeat: no-repeat;
   background-position-y: 170%;
   background-position-x: 50%;
   background-blend-mode: soft-light;
 }
-.grid-bbva{
+.grid-bbva {
   background-color: rgb(204 204 204 / 54%);
   background-image: url(../img/BBVA-1.png);
   background-repeat: no-repeat;
@@ -140,7 +140,7 @@ header{
   background-blend-mode: overlay;
   font-weight: 600;
 }
-.grid-sant{
+.grid-sant {
   background-color: rgb(204 204 204 / 54%);
   background-image: url(../img/santander.png);
   background-repeat: no-repeat;
@@ -151,7 +151,7 @@ header{
   font-weight: 600;
   font-size: 10px;
 }
-.grid-scoti{
+.grid-scoti {
   background-color: rgb(204 204 204 / 54%);
   background-image: url(../img/scotiak.png);
   background-repeat: no-repeat;
@@ -161,7 +161,7 @@ header{
   background-blend-mode: overlay;
   font-weight: 600;
 }
-.grid-banort{
+.grid-banort {
   background-color: rgb(204 204 204 / 54%);
   background-image: url(../img/banorte.png);
   background-repeat: no-repeat;
@@ -171,7 +171,7 @@ header{
   background-blend-mode: overlay;
   font-weight: 600;
 }
-.grid-inbur{
+.grid-inbur {
   background-color: rgb(204 204 204 / 54%);
   background-image: url(../img/inbursa.png);
   background-repeat: no-repeat;
@@ -181,7 +181,7 @@ header{
   background-blend-mode: overlay;
   font-weight: 600;
 }
-.grid-banamex{
+.grid-banamex {
   background-color: rgb(204 204 204 / 54%);
   background-image: url(../img/banamex.png);
   background-repeat: no-repeat;
@@ -199,7 +199,7 @@ header{
   font-size: 15px;
   text-align: center;
 }
-#botones{
+#botones {
   display: flex;
   flex-direction: column;
   gap: 2px;
