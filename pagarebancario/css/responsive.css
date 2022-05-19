@@ -47,10 +47,15 @@
   /*////////////////*/
   .bbva{
     flex-direction: column;
+    margin-top: 0%;
   }
   .table-2{
     min-width: 100%;
   }
+  .table-2 table{
+    min-width: 100%;
+  }
+
   .context-1 h2 {
    text-align: center;
   }
